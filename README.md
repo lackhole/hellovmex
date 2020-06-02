@@ -1,6 +1,8 @@
 # hellovmex
 ## for Tensorflow Lite Issue
 
+* There is an callback bug with calling UI objects in the app, but please just ignore that part.
+
 
 ### Java
 location: `app/src/main/java/con.example.hello_vmex/`
