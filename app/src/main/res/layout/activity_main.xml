@@ -402,7 +402,7 @@
         android:id="@+id/button_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Run"
+        android:text="Run(thread)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -411,7 +411,7 @@
         android:id="@+id/button_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:text="Stop(thread)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -420,7 +420,7 @@
         android:id="@+id/button_run_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Run (M)"
+        android:text="Run (No Thread)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_run" />
 
@@ -428,7 +428,7 @@
         android:id="@+id/button_stop_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop (M)"
+        android:text="Stop (No Thread)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_stop" />
 
